@@ -4,16 +4,29 @@
 
 
 ## Deliverable 1: Linear Regression to Predict MPG
+
+![deliverable_1_linear_regression](https://user-images.githubusercontent.com/93154363/160524018-d2bb21a5-62e5-4a3c-97b8-ec1acf50c76b.png)
+
+![deliverable_1_summary](https://user-images.githubusercontent.com/93154363/160524083-57c766f9-fb4f-4727-a3a2-6f8b7695bdd0.png)
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 Vehicle weight, spoiler angle, and AWD provided a non-random amount of variance.
 
 Is the slope of the linear model considered to be zero? Why or why not?
+
 The slope is not zero. This was based on the p-value, 5.35e-11, which is far less than even an extreme significance level of 0.0001. This means that we can reject the null hypothesis.
 
 Does this linear model predict mpg of MechaCar protoypes effectively? Why or why not?
+
 This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. This indicates that it is an effective prediction model.
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
+
+![deliverable_2_lot_summary](https://user-images.githubusercontent.com/93154363/160524181-8217e4b9-f1a1-42e1-8cd0-d603b5512648.png)
+
+![deliverable_2_summary](https://user-images.githubusercontent.com/93154363/160524198-f6d8f56b-4445-49d9-96d6-73c9440ac725.png)
+
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 Overall the manufacturing data meets the required design specifications as the total summary variance is only 62.29 PSI. When looking at individual lots, Lot 1 and Lot 2 meet requirements with variances of 0.98 PSI and 7.47 PSI respectively. However, Lot 3 fails to meet requirement by a considerable margin with a variance of 170.29 PSI.
